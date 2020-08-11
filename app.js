@@ -11,6 +11,14 @@ M.Slider.init(slider, {
     interval: 6000
   });
 
+// Scrollspy
+const ss = document.querySelectorAll('.scrollspy');
+M.ScrollSpy.init(ss, {});
+
+// Material Boxed
+const mb = document.querySelectorAll('.materialboxed');
+M.Materialbox.init(mb, {});
+
 // Auto Complete
 const ac = document.querySelector('.autocomplete');
 M.Autocomplete.init(ac, {
